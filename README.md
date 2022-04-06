@@ -6,3 +6,5 @@
 Skills:  Html / Css / ReactNative.js / JavaScript / REACT.js / Redux /  EcmaScript 6,7,8 / Next.js / Node.js / Express.js / Restfullapi / WordPress 
 
 ![resume](https://github.com/artafallahpoor/artafallahpoor/blob/main/resume.jpg)
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=artafallahpoor&show_icons=true)  
