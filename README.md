@@ -7,7 +7,7 @@
 ### Skills
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,ts,react,redux,webpack,next,qt)](https://skillicons.dev)
 
-[![My Skills](https://skillicons.dev/icons?i=git,github,vscode,atom,netlify,wordpress,mongodb,figma,vercel)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=git,github,vscode,atom,netlify,wordpress,mongodb,figma,vercel,redis)](https://skillicons.dev)
 
 [![My Skills](https://skillicons.dev/icons?i=tailwind,bootstrap,materialui,nodejs,express,nest,go,py,electron)](https://skillicons.dev)
 ### tel : 09024722140
