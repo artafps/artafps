@@ -5,7 +5,7 @@
 
 
 ### Skills
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,ts,react,redux,webpack,next,qt)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,ts,react,redux,webpack,next,qt,git,github,vscode,atom,netlify,wordpress,mongodb,figma,vercel,redis,tailwind,bootstrap,materialui,nodejs,express,nest,go,py,electron,markdown&perline=3&theme=light)](https://skillicons.dev)
 
 [![My Skills](https://skillicons.dev/icons?i=git,github,vscode,atom,netlify,wordpress,mongodb,figma,vercel,redis)](https://skillicons.dev)
 
