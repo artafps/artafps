@@ -11,3 +11,5 @@
 ### tel : 09024722140
 ### Hoping for good victory over evil
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=artafallahpoor&show_icons=true)  
+ <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="artafallahpoor's Github Stats" src="https://github-readme-stats.vercel.app/api?username=artafallahpoor&show_icons=true&count_private=true&theme=vision-friendly-dark&hide_border=true" height="192px"/></a>
+    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="artafallahpoor's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=artafallahpoor&langs_count=8&layout=compact&theme=vision-friendly-dark&hide_border=true" height="192px"/></a>
