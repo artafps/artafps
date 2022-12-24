@@ -12,4 +12,4 @@
 ### Hoping for good victory over evil
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=artafallahpoor&show_icons=true)  
 
-<a style="border:.3px solid black; href="https://github.com/anuraghazra/github-readme-stats"><img alt="artafallahpoor's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=artafallahpoor&langs_count=8&layout=compact&hide_border=true" height="192px" "/></a>
+<a style="border:.3px solid black;" href="https://github.com/anuraghazra/github-readme-stats"><img alt="artafallahpoor's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=artafallahpoor&langs_count=8&layout=compact&hide_border=true" height="192px" /></a>
