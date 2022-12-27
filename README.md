@@ -18,6 +18,17 @@
 <a href="mailto:artafallahpoor@gmail.com"><img alt="Gmail" title="artafallahpoor@gmail.com" src="https://img.shields.io/badge/Gmail-DE4032?logo=gmail&logoColor=white"/></a>
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=artafallahpoor&show_icons=true)  
+![GitHub stats](https://github-readme-stats.vercel.app/api/top-langs/?username=artafallahpoor&langs_count=8&layout=compact&hide_border=false)  
 
 <img alt="artafallahpoor's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=artafallahpoor&langs_count=8&layout=compact&hide_border=false" height="192px" />
 
+<details>
+  <summary>More</summary>
+  <div align="center">
+    <br/>
+        <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Github Stats" src="https://github-readme-stats.vercel.app/api?username=erfanansari&show_icons=true&count_private=true&theme=vision-friendly-dark&hide_border=true" height="192px"/></a>
+    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=erfanansari&langs_count=8&layout=compact&theme=vision-friendly-dark&hide_border=true" height="192px"/></a>
+    <br/>
+  </div>
+  <b>Note:</b> <em>Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.</em>
+</details>
