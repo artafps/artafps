@@ -22,7 +22,7 @@
   <summary>More</summary>
   <div align="center">
     <br/>
-    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Github Stats" src="https://github-readme-stats.vercel.app/api?username=artafallahpoor&show_icons=true&bg_color=#2000FFFF,#00CBFFFF" height="192px"/></a>
+    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Github Stats" src="https://github-readme-stats.vercel.app/api?username=artafallahpoor&show_icons=true" height="192px"/></a>
     <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=artafallahpoor&langs_count=8&layout=compact&hide_border=false" height="192px"/></a>
     <br/>
   </div>
