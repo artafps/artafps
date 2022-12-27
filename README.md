@@ -3,7 +3,7 @@
 
 ### And I live in [Gilan](https://en.wikipedia.org/wiki/Gilan_province) [Lahijan](https://en.wikipedia.org/wiki/Lahijan)
 ### And I am interested in programming 
-### And I am studying [omputer science](https://en.wikipedia.org/wiki/Computer_science)[Gilan University](https://en.wikipedia.org/wiki/University_of_Guilan).
+### And I am studying [Computer Science](https://en.wikipedia.org/wiki/Computer_science) [Gilan University](https://en.wikipedia.org/wiki/University_of_Guilan).
 ### Hoping for good victory over evil
 
 ### Skills
