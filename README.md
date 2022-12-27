@@ -1,9 +1,9 @@
 # Hi there 👋, Im ARTA 
 ### Im Programmer Fullstack :)
 
-### And I live in Gilan Lahijan
+### And I live in [Gilan](https://en.wikipedia.org/wiki/Gilan_province) [Lahijan](https://en.wikipedia.org/wiki/Lahijan)
 ### And I am interested in programming 
-### And I am studying computer science at Gilan University .
+### And I am studying [omputer science](https://en.wikipedia.org/wiki/Computer_science)[Gilan University](https://en.wikipedia.org/wiki/University_of_Guilan).
 ### Hoping for good victory over evil
 
 ### Skills
