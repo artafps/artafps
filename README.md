@@ -10,7 +10,9 @@
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,ts,react,redux,webpack,next,qt,git,github,vscode,atom,netlify,wordpress,mongodb,figma,vercel,redis,tailwind,bootstrap,materialui,nodejs,express,nest,go,py,electron,markdown&perline=10&theme=light)](https://github.com/artafallahpoor)
 
 <p align="left"><img src="https://komarev.com/ghpvc/?username=artafallahpoor&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" /> </p>
-<a href="https://t.me/eansarimehr"><img alt="Telegram" title="t.me/eansarimehr" src="https://img.shields.io/badge/Telegram-1C8CC5?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+
+## ️Contact
+<a href="https://t.me/halloapta"><img alt="Telegram" title="t.me/halloapta" src="https://img.shields.io/badge/Telegram-1C8CC5?style=for-the-badge&logo=telegram&logoColor=red"/></a>
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=artafallahpoor&show_icons=true)  
 
