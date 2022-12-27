@@ -1,6 +1,6 @@
 
 # Hi there 👋, Im ARTA 
-### Im Programmer Fullstack :) <p align="left"><img src="https://komarev.com/ghpvc/?username=artafallahpoor&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" /> </p>
+<p align="left"> Im Programmer Fullstack :) <img src="https://komarev.com/ghpvc/?username=artafallahpoor&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" /> </p>
 
 ### And I live in [Gilan](https://en.wikipedia.org/wiki/Gilan_province) [Lahijan](https://en.wikipedia.org/wiki/Lahijan)
 ### And I am interested in programming 
