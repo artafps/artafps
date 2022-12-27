@@ -20,9 +20,6 @@
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=artafallahpoor"/>
 </div>
-
-<details>
-  <summary>More</summary>
   <div align="center">
     <br/>
     <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Github Stats" src="https://github-readme-stats.vercel.app/api?username=artafallahpoor&show_icons=true&" height="192px"/></a>
@@ -30,4 +27,4 @@
     <br/>
   </div>
   <b>Note:</b> <em>Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.</em>
-</details>
+
