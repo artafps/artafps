@@ -1,7 +1,6 @@
 
 # Hi there 👋, Im ARTA 
 ### Im Programmer Fullstack :) 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=artafallahpoor&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" /> </p>
 
 ### And I live in [Gilan](https://en.wikipedia.org/wiki/Gilan_province) [Lahijan](https://en.wikipedia.org/wiki/Lahijan)
 ### And I am interested in programming 
@@ -28,3 +27,7 @@
 ## ️Contact
 <a href="https://t.me/halloapta"><img alt="Telegram" title="t.me/halloapta" src="https://img.shields.io/badge/Telegram-1C8CC5?logo=telegram&logoColor=white"/></a>
 <a href="mailto:artafallahpoor@gmail.com"><img alt="Gmail" title="artafallahpoor@gmail.com" src="https://img.shields.io/badge/Gmail-DE4032?logo=gmail&logoColor=white"/></a>
+
+#### Profile viwe 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=artafallahpoor&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" /> </p>
+
