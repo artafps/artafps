@@ -12,11 +12,7 @@
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,ts,react,redux,webpack,next,qt,git,github,vscode,atom,netlify,wordpress,mongodb,figma,vercel,redis,tailwind,bootstrap,materialui,nodejs,express,nest,go,py,electron,markdown&perline=10&theme=light)](https://github.com/artafallahpoor)
 
 
-
-## ️Contact
-<a href="https://t.me/halloapta"><img alt="Telegram" title="t.me/halloapta" src="https://img.shields.io/badge/Telegram-1C8CC5?logo=telegram&logoColor=white"/></a>
-<a href="mailto:artafallahpoor@gmail.com"><img alt="Gmail" title="artafallahpoor@gmail.com" src="https://img.shields.io/badge/Gmail-DE4032?logo=gmail&logoColor=white"/></a>
-
+## My GitHub Statistics
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=artafallahpoor"/>
 </div>
@@ -28,3 +24,7 @@
   </div>
   <b>Note:</b> <em>Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.</em>
 
+
+## ️Contact
+<a href="https://t.me/halloapta"><img alt="Telegram" title="t.me/halloapta" src="https://img.shields.io/badge/Telegram-1C8CC5?logo=telegram&logoColor=white"/></a>
+<a href="mailto:artafallahpoor@gmail.com"><img alt="Gmail" title="artafallahpoor@gmail.com" src="https://img.shields.io/badge/Gmail-DE4032?logo=gmail&logoColor=white"/></a>
