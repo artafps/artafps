@@ -29,11 +29,19 @@
   <summary>My Trophy</summary>
   <div align="center">
     <br/>
-    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Top Languages" src="https://github-profile-trophy.vercel.app/?username=artafallahpoor" height="192px"/></a>
+    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="artafallahpoor's Top Languages" src="https://github-profile-trophy.vercel.app/?username=artafallahpoor" height="192px"/></a>
     <br/>
   </div>
   <b>Note:</b> <em>Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.</em>
 </details>
+
+<details close="true">
+  <summary><b> Git statistics </b></summary>
+  <div align="center">
+    <img height="150px" src="https://github-readme-stats.vercel.app/api?username=artafallahpoor&show_icons=true" />
+    <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=artafallahpoor&hide=html&layout=compact" />
+  </div>
+ </details>
 
 ## ️Contact
 <a href="https://t.me/hallo_apta"><img alt="Telegram" title="t.me/hallo_apta" src="https://img.shields.io/badge/Telegram-1C8CC5?logo=telegram&logoColor=white"/></a>
