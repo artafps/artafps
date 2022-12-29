@@ -19,8 +19,8 @@
   <summary><b> My Activity More </b></summary>
   <div align="center">
     <br/>
-    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Github Stats" src="https://github-readme-stats.vercel.app/api?username=artafallahpoor&show_icons=true&" height="192px"/></a>
-    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=artafallahpoor&langs_count=8&layout=compact&hide_border=false&" height="192px"/></a>
+    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Github Stats" src="https://github-readme-stats.vercel.app/api?username=artafallahpoor&show_icons=true&" height="182px"/></a>
+    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=artafallahpoor&langs_count=8&layout=compact&hide_border=false&" height="182px"/></a>
     <br/>
   </div>
   <b>Note:</b> <em>Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.</em>
