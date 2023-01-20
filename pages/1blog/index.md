@@ -7,7 +7,7 @@
 <div class="code">
    This text is quite long, and will be truncated once displayed.
    <br />
-   "<p>This text is quite long</p>"
+  ```<p>This text is quite long</p>```
    <br />
    {"function name (){console.log('hello world')}"}                
 </div>
