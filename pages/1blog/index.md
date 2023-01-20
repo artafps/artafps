@@ -17,3 +17,6 @@
 ```bash 
   awdwad
 ```
+| id | username | password | stars | coin | numplay | logindate |
+| - | - | - | - | - | - | - |
+| string | string | string | string | string | string | string |
