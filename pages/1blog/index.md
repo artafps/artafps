@@ -11,4 +11,12 @@
    <br />
    {"function name (){console.log('hello world')}"}                
 </div>
-  ```bash <p>This text is quite long</p>```
+
+ ```bash
+ input :  (Main,shape1,shape2)
+ output : screane
+```
+
+```bash 
+  awdwad
+```
