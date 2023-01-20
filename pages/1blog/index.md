@@ -7,7 +7,8 @@
 <div class="code">
    This text is quite long, and will be truncated once displayed.
    <br />
-  ```bash <p>This text is quite long</p>```
+
    <br />
    {"function name (){console.log('hello world')}"}                
 </div>
+  ```bash <p>This text is quite long</p>```
