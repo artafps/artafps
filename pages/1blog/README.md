@@ -26,4 +26,4 @@
 
 ![Drag Racing](https://raw.githubusercontent.com/artafp/artafp/main/pages/1blog/index.jpg)
 
-<video  controls src="https://hw19.asset.aparat.com/aparat-video/83730ed162aecb3c4abba9631856e02c18882692-144p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjQ2ZTQzY2IyNzNkYzAzZTNkZWJiOGUzZGE3YTBhMDdhIiwiZXhwIjoxNjc0MjYxMzA4LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.JEu5v3kWQkTtPaNGsNbxCkGpdRrcGDssyLnHNrdP4QA"></video>
+<div id="47960931925"><script type="text/JavaScript" src="https://www.aparat.com/embed/YROWE?data[rnddiv]=47960931925&data[responsive]=yes"></script></div>
