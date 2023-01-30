@@ -1,13 +1,13 @@
 
-### درود بر همه  👋  من آرتا (artafp) هستم یک عدد برنامه نویس فول استک :)> 
+#### درود بر همه  👋  من آرتا (artafp) هستم یک عدد برنامه نویس فول استک :)> 
 ساکن ایران گیلان لاهیجان هستم و به برنامه نویسی علاقه مندم و در حال تحصیل در دانشگاه گیلان رشته علوم کامپیوتر هستم .
 به امید پیروزی خیر بر شر
 
-### مهارت های من  
+####مهارت های من  
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,ts,react,redux,webpack,next,qt,git,github,vscode,atom,netlify,wordpress,mongodb,figma,vercel,redis,tailwind,bootstrap,materialui,nodejs,express,nest,go,py,electron,markdown&perline=10&theme=light)](https://github.com/artafp)
  
 
-## آمار های گیتهاب من
+#### آمار های گیتهاب من
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=artafp"/>
 </div>
