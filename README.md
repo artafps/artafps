@@ -66,6 +66,6 @@
 <a href="https://t.me/hallo_apta"><img alt="Telegram" title="t.me/hallo_apta" src="https://img.shields.io/badge/Telegram-1C8CC5?logo=telegram&logoColor=white"/></a>
 <a href="mailto:artafallahpoor@gmail.com"><img alt="Gmail" title="artafallahpoor@gmail.com" src="https://img.shields.io/badge/Gmail-DE4032?logo=gmail&logoColor=white"/></a>
 
-#### Profile viwe 
+#### Profile views 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=artafallahpoor&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" /> </p>
 
