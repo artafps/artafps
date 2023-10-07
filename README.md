@@ -18,7 +18,11 @@
 ![Figma](https://img.shields.io/badge/Figma-F24E1E.svg?style=for-the-badge&logo=Figma&logoColor=white)
 ![My Skills](https://img.shields.io/badge/Nodemon-76D04B.svg?style=for-the-badge&logo=Nodemon&logoColor=white)
 ![My Skills](https://img.shields.io/badge/.ENV-ECD53F.svg?style=for-the-badge&logo=dotenv&logoColor=black)
-
+![My Skills](https://img.shields.io/badge/Qt-41CD52.svg?style=for-the-badge&logo=Qt&logoColor=white)
+![My Skills](https://img.shields.io/badge/Redux-764ABC.svg?style=for-the-badge&logo=Redux&logoColor=white)
+![My Skills](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=MongoDB&logoColor=white)
+![My Skills](https://img.shields.io/badge/Mongoose-880000.svg?style=for-the-badge&logo=Mongoose&logoColor=white)
+![My Skills](https://img.shields.io/badge/WordPress-21759B.svg?style=for-the-badge&logo=WordPress&logoColor=white)
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,ts,react,redux,webpack,next,qt,git,github,vscode,atom,netlify,wordpress,mongodb,figma,vercel,redis,tailwind,bootstrap,materialui,nodejs,express,nest,go,py,electron,markdown&perline=10&theme=light)](https://github.com/artafp)
 
