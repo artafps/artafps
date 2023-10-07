@@ -27,6 +27,14 @@
 ![My Skills](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![My Skills](https://img.shields.io/badge/Webpack-8DD6F9.svg?style=for-the-badge&logo=Webpack&logoColor=black)
 ![My Skills](https://img.shields.io/badge/Go-00ADD8.svg?style=for-the-badge&logo=Go&logoColor=white)
+![My Skills](https://img.shields.io/badge/NestJS-E0234E.svg?style=for-the-badge&logo=NestJS&logoColor=white)
+![My Skills](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=Git&logoColor=white)
+![My Skills](https://img.shields.io/badge/GitHub%20Pages-222222.svg?style=for-the-badge&logo=GitHub-Pages&logoColor=white)
+![My Skills](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)
+![My Skills](https://img.shields.io/badge/Express-000000.svg?style=for-the-badge&logo=Express&logoColor=white)
+![My Skills](https://img.shields.io/badge/Axios-5A29E4.svg?style=for-the-badge&logo=Axios&logoColor=white)
+![My Skills](https://img.shields.io/badge/Vercel-000000.svg?style=for-the-badge&logo=Vercel&logoColor=white)
+
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,ts,react,redux,webpack,next,qt,git,github,vscode,atom,netlify,wordpress,mongodb,figma,vercel,redis,tailwind,bootstrap,materialui,nodejs,express,nest,go,py,electron,markdown&perline=10&theme=light)](https://github.com/artafp)
 
 
