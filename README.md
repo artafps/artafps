@@ -9,7 +9,7 @@
 
 ### Skills
 ![My Skills](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
-
+![My Skills](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,ts,react,redux,webpack,next,qt,git,github,vscode,atom,netlify,wordpress,mongodb,figma,vercel,redis,tailwind,bootstrap,materialui,nodejs,express,nest,go,py,electron,markdown&perline=10&theme=light)](https://github.com/artafp)
