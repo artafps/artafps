@@ -8,7 +8,7 @@
  Hoping for good victory over evil
 
 ### Skills
-![Vscode](https://img.shields.io/badge/Android-3DDC84.svg?style=for-the-badge&logo=Android&logoColor=white)
+![Vscode](https://img.shields.io/badge/Vscode-3DDC84.svg?style=for-the-badge&logo=Android&logoColor=white)
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,ts,react,redux,webpack,next,qt,git,github,vscode,atom,netlify,wordpress,mongodb,figma,vercel,redis,tailwind,bootstrap,materialui,nodejs,express,nest,go,py,electron,markdown&perline=10&theme=light)](https://github.com/artafp)
 
 
