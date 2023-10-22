@@ -37,9 +37,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com?user=artafp"/>
 </div>
 
-<a href="https://wakatime.com/@sajjadmrx" target="_blank">
-  <img width="50%" align="right" src="https://github-readme-stats.vercel.app/api/wakatime?username=artafp&border_radius=5px&border_color=fff&icon_color=58a6ff&show_icons=true&langs_count=10&theme=gruvbox">
-<a/>
   <div align="center">
     <br/>
     <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Github Stats" src="https://github-readme-stats.vercel.app/api?username=artafp&show_icons=true&" height="162px"/></a>
