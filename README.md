@@ -34,13 +34,13 @@
 ![My Skills](https://img.shields.io/badge/GitHub%20Pages-222222.svg?style=for-the-badge&logo=GitHub-Pages&logoColor=white)
 ## My GitHub Statistics
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=artafp"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=artafps"/>
 </div>
 
   <div align="center">
     <br/>
-    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Github Stats" src="https://github-readme-stats.vercel.app/api?username=artafp&show_icons=true&" height="162px"/></a>
-    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=artafp&langs_count=8&layout=compact&hide_border=false&" height="162px"/></a>
+    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Github Stats" src="https://github-readme-stats.vercel.app/api?username=artafps&show_icons=true&" height="162px"/></a>
+    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="erfanansari's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=artafps&langs_count=8&layout=compact&hide_border=false&" height="162px"/></a>
     <br/>
   </div>
  
@@ -50,7 +50,7 @@
 
 
 ## ️Contact
-<a href="https://t.me/Artafps"><img alt="Telegram" title="t.me/hallo_apta" src="https://img.shields.io/badge/Telegram-1C8CC5?logo=telegram&logoColor=white"/></a>
+<a href="https://t.me/artafps"><img alt="Telegram" title="t.me/hallo_apta" src="https://img.shields.io/badge/Telegram-1C8CC5?logo=telegram&logoColor=white"/></a>
 <a href="mailto:artafallahpoor@gmail.com"><img alt="Gmail" title="artafallahpoor@gmail.com" src="https://img.shields.io/badge/Gmail-DE4032?logo=gmail&logoColor=white"/></a>
 
 #### Profile views 
