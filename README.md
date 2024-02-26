@@ -1,6 +1,6 @@
 
-# Hi there 👋, Im ARTA 
-### Im Programmer Fullstack :) 
+# Hi there ð, Im ARTA 
+### Im Programmer Fullstack :) :>
 
  And I live in  [Iran](https://en.wikipedia.org/wiki/Iran) [Gilan](https://en.wikipedia.org/wiki/Gilan_province) [Lahijan](https://en.wikipedia.org/wiki/Lahijan)
  And I am interested in programming 
@@ -49,7 +49,7 @@
 
 
 
-## ️Contact
+## ï¸Contact
 <a href="https://t.me/artafps"><img alt="Telegram" title="t.me/hallo_apta" src="https://img.shields.io/badge/Telegram-1C8CC5?logo=telegram&logoColor=white"/></a>
 <a href="mailto:artafallahpoor@gmail.com"><img alt="Gmail" title="artafallahpoor@gmail.com" src="https://img.shields.io/badge/Gmail-DE4032?logo=gmail&logoColor=white"/></a>
 
