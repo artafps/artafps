@@ -1,0 +1,227 @@
+@use '../utils' as *;
+
+/*=============================
+    00. Dark Mode
+===============================*/
+.darkmode-trigger {
+    position: fixed;
+    margin: 16px;
+    right: 0;
+    bottom: 0;
+    z-index: 991;
+    @include transition(.2s);
+    @include transform(scale(.9));
+    box-shadow: 0 6px 32px -1px rgba(0, 0, 0, 0.08);
+    width: 40px;
+    height: 40px;
+    background-color: #1B1128;
+    color: var(--tg-common-color-white);
+    @include border-radius(50%);
+    & .modeSwitch {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        @include flex-center();
+        color: var(--tg-common-color-white);
+        z-index: 1;
+    }
+    & [type=checkbox] {
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+    & .icon {
+        &::before {
+            content: "\f185";
+            display: block;
+            font-family: var(--tg-fa-icon-font-family);
+            font-weight: var(--tg-fw-bold);
+            line-height: 1;
+        }
+    }
+    &:hover {
+        @include transform(scale(1.1));
+    }
+}
+.has-active-dark {
+    display: none;
+}
+
+/*=============================
+    All Dark CSS Here
+===============================*/
+[tg-theme=dark] {
+    --tg-heading-color: var(--tg-common-color-white);
+    --tg-body-color: #B7B4BB;
+    & body,
+    & .tgmobile__menu-box,
+    & .connect__modal .modal-content,
+    & .modal-backdrop {
+        background-color: #0F051D;
+    }
+}
+[tg-theme=dark] {
+    & .has-active-light {
+        display: none;
+    }
+    & .has-active-dark {
+        display: block;
+    }
+    & .darkmode-trigger {
+        background-color: var(--tg-common-color-white);
+        color: var(--tg-theme-primary);
+        & .modeSwitch {
+            color: var(--tg-theme-primary);
+        }
+        & .icon::before {
+            content: "\f186";
+        }
+    }
+    & .nav-logo .light-logo,
+    & .logo .light-logo {
+        display: none;
+    }
+    & .nav-logo .dark-logo,
+    & .logo .dark-logo {
+        display: block;
+    }
+    & .tgmenu__navbar-wrap>ul>li.active > a,
+    & .tgmenu__navbar-wrap>ul>li:hover > a {
+        color: var(--tg-common-color-white);
+        opacity: .5;
+    }
+    & .tgmenu__navbar-wrap ul li .sub-menu {
+        background: rgba(19, 8, 34, .98);
+        border-color: #1a0d2b;
+        box-shadow: none;
+    }
+    & .modal__header button::before,
+    & .connect__section .list-wrap li {
+        background: rgba(255, 255, 255, 0.1);
+    }
+    & .connect__section .list-wrap li::before {
+        color: rgba(255, 255, 255, 0.7);
+    }
+    & .mint__item,
+    & .collection__item,
+    & .roadmap__card,
+    & .team__item,
+    & .faq__wrapper,
+    & .choose__item,
+    & .team__item-two-thumb,
+    & .newsletter__form [type=email] {
+        background: var(--tg-rgba-1);
+    }
+    & .sticky-menu {
+        background: transparent;
+        box-shadow: none;
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: #0F051D;
+            opacity: .9;
+            pointer-events: none;
+            z-index: -1;
+        }
+    }
+    & .border-btn {
+        border-color: var(--tg-rgba-3);
+    }
+    & .tgmobile__menu .navigation li,
+    & .tgmobile__menu .navigation:last-child,
+    & .tgmobile__menu .social-links ul li a,
+    & .tgmobile__menu .navigation>li>ul>li:first-child {
+        border-color: var(--tg-rgba-1);
+        color: var(--tg-common-color-white);
+    }
+    & .tgmobile__menu .navigation li.menu-item-has-children .dropdown-btn {
+        background: #221731;
+        &.open {
+            background: var(--tg-theme-primary);
+        }
+        & .plus-line {
+            background-color: var(--tg-common-color-white);
+            &::after {
+                background-color: var(--tg-common-color-white);
+            }
+        }
+    }
+    & .tgmobile__menu .navigation ul li a {
+        opacity: .7;
+    }
+    & .banner__background-wrap .background {
+        opacity: 0.2;
+    }
+    & .banner__images .tg-circle-text {
+        background: #241f2b;
+    }
+    & .brand__title {
+        color: #B7B4BB;
+    }
+    & .roadmap__wrapper .tg-swiper-next,
+    & .roadmap__wrapper .tg-swiper-prev {
+        background-color: var(--tg-common-color-black);
+    }
+    & .sidebar-search-form input {
+        background: rgba(248, 244, 255, 0.06);
+    }
+    & .footer__social li a {
+        opacity: .9;
+        &:hover {
+            color: var(--tg-common-color-white);
+            opacity: 1;
+        }
+    }
+    & .copyright__menu ul a {
+        &:hover {
+            color: var(--tg-common-color-white);
+        }
+    }
+    & .roadmap__wrapper-two::after {
+        opacity: .2;
+    }
+    & .roadmap__card.style-two::after {
+        border-color: #0F051D;
+    }
+    & .footer-style-two .footer__social li a {
+        color: var(--tg-body-color);
+        &:hover {
+            opacity: 1;
+            color: var(--tg-common-color-white);
+        }
+    }
+    & .banner-style-three .banner__background-wrap {
+        display: none;
+    }
+    & .banner__images-two .shape-one,
+    & .banner__images-two .shape-three {
+        opacity: 0.2 !important;
+    }
+    & .banner__images-grid-two .image-grid-item:nth-child(1) .main-image::after {
+        background: #fff;
+    }
+    & .banner__community-members li img {
+        box-shadow: 0 0 0 3px #0f051d;
+    }
+    & .collection__three-wrapper .tg-swiper-next,
+    & .collection__three-wrapper .tg-swiper-prev {
+        background-color: #0f051d;
+    }
+    & .choose-style-two .choose__item,
+    & .roadmap__wrapper-three .roadmap__card.style-three,
+    & .faq-style-two .faq__wrapper {
+        background: transparent;
+    }
+    & .fact-style-three .fact__item::after {
+        background: rgba(255, 255, 255, .1);
+    }
+    & .newsletter__form [type=email] {
+        color: #fff;
+    }
+}

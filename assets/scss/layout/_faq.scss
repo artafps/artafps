@@ -1,0 +1,81 @@
+@use '../utils' as *;
+
+/*=============================
+    00. FAQ
+===============================*/
+.faq {
+    &__wrapper {
+        padding: 48px;
+        @include border-radius(24px);
+        box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.08);
+        @media #{$xs} {
+            padding: 30px;
+            @include border-radius(15px);
+        }
+        & .accordion {
+            &-item {
+                border: none;
+                background: transparent;
+                &:not(:first-child) {
+                    padding-top: 20px;
+                    margin-top: 20px;
+                    border-top: 1px solid rgba(131, 131, 131, 0.25);
+                }
+            }
+            &-header {
+                font-family: var(--tg-body-font-family);
+            }
+            &-button {
+                border: none;
+                outline: none;
+                box-shadow: none;
+                background: transparent;
+                font-weight: var(--tg-fw-bold);
+                font-size: 22px;
+                @include border-radius(0 !important);
+                padding: 0 0;
+                color: var(--tg-heading-color);
+                @media #{$xs} {
+                    font-size: 18px;
+                }
+                @media #{$sm} {
+                    font-size: 20px;
+                }
+                &::after {
+                    content: "\e946";
+                    background: none;
+                    font-family: var(--tg-ui-icon-font-family);
+                    font-weight: var(--tg-fw-regular);
+                    @include transform(rotate(-180deg));
+                }
+                &:not(.collapsed){
+                    &::after {
+                        @include transform(rotate(0deg));
+                    }
+                }
+            }
+            &-body {
+                padding: 20px 20px 10px 0;
+                @media #{$xs} {
+                    padding: 20px 0 10px 0;
+                }
+                & p {
+                    font-size: 20px;
+                    line-height: 1.5;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    @media #{$xs} {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    &-style-two {
+        & .faq__wrapper {
+            @include box-shadow(none);
+            border: 1px solid rgba(131, 131, 131, 0.25);
+        }
+    }
+}

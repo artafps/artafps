@@ -1,0 +1,67 @@
+@use '../utils' as *;
+
+.uni-preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+.uni-preloader {
+  background-color: white;
+}
+
+.uni-preloader.tg-dark,
+.tg-dark .uni-preloader {
+  background-color: #131313;
+}
+
+.uni-preloader>.loading {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.uni-preloader>.loading>div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  margin: 4px;
+  border: 4px solid transparent;
+  border-radius: 50%;
+  animation: preloader 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #741ff5 transparent transparent transparent;
+}
+
+.uni-preloader>.loading>div:nth-child(1) {
+  animation-delay: -0.1s;
+}
+
+.uni-preloader>.loading>div:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.uni-preloader>.loading>div:nth-child(3) {
+  animation-delay: -0.3s;
+}
+
+@keyframes preloader {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(360deg);
+  }
+}
+html.show-preloader body {
+  display: none;
+}

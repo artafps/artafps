@@ -1,0 +1,51 @@
+@use '../utils' as *;
+
+/*=============================
+    00. Section Title
+===============================*/
+.title-mb-80 {
+    margin-bottom: 80px;
+    @media #{$md} {
+        margin-bottom: 60px;
+    }
+}
+.title-mb-65 {
+    margin-bottom: 65px;
+}
+.title-mb-75 {
+    margin-bottom: 75px;
+    @media #{$md} {
+        margin-bottom: 60px;
+    }
+}
+.section {
+    &__title {
+        & .sub-title {
+            text-transform: uppercase;
+            display: inline-flex;
+            font-weight: var(--tg-fw-bold);
+            margin: 0 0 10px;
+        }
+        & .title {
+           font-size: 64px;
+           line-height: 1;
+           margin: 0 0;
+           @media #{$lg} {
+                font-size: 52px;
+           }
+           @media #{$xs} {
+                font-size: 42px;
+           }
+           @media #{$sm} {
+                font-size: 48px;
+           }
+        }
+        & p {
+            margin: 10px 0 0;
+            font-size: 20px;
+            @media #{$xs} {
+                font-size: 18px;
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+@use '../utils' as *;
+
+/*=============================
+    00. Mint
+===============================*/
+.section-pt-80 {
+    padding-top: 80px;
+    @media #{$lg} {
+        padding-top: 60px;
+    }
+}
+.section-pb-50 {
+    padding-bottom: 50px;
+    @media #{$lg} {
+        padding-bottom: 30px;
+    }
+}
+.mint {
+    &__lits-wrapper {
+        margin: 0 100px;
+        position: relative;
+        @media #{$lg} {
+            margin: 0 0;
+        }
+        & .row {
+            --bs-gutter-x: 32px;
+            @media #{$md} {
+                --bs-gutter-x: 30px;
+            }
+        }
+        & .shape {
+            position: absolute;
+        }
+    }
+    &__item {
+        @include flexbox();
+        background: var(--tg-common-color-white);
+        @include border-radius(24px);
+        padding: 48px 25px;
+        box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.08);
+        margin-bottom: 32px;
+        @media #{$md} {
+            @include border-radius(20px);
+            padding: 40px 30px;
+            margin-bottom: 30px;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 25px 0;
+        }
+    }
+    &__icon {
+        margin-right: 45px;
+        @media #{$lg} {
+            margin-right: 35px;
+        }
+        & img {
+            max-width: 72px;
+        }
+    }
+    &__content {
+        & .title {
+            font-size: 28px;
+            line-height: 1.1;
+            margin: 0 0 20px;
+            @media #{$lg} {
+                font-size: 25px;
+            }
+            @media #{$md} {
+                font-size: 22px;
+                margin: 0 0 15px;
+            }
+            @media #{$sm} {
+                font-size: 24px;
+                margin: 0 0 17px;
+            }
+        }
+        & .desc {
+            font-size: 18px;
+            line-height: 1.5;
+            margin: 0 0;
+        }
+    }
+}

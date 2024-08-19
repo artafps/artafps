@@ -1,0 +1,17 @@
+@use '../utils' as *;
+
+/*=============================
+    00. Divider
+===============================*/
+.section-divider {
+    text-align: center;
+    margin: 50px 0;
+    & img {
+        max-width: 80px;
+        display: block;
+        margin: 0 auto;
+    }
+    @media #{$md} {
+        margin: 20px 0;
+    }
+}

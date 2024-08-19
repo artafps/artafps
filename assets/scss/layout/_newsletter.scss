@@ -1,0 +1,64 @@
+@use '../utils' as *;
+
+/*=============================
+    00. Newsletter
+===============================*/
+.newsletter {
+    &__wrapper {
+        padding: 60px 56px;
+        @include border-radius(32px);
+        border: 1px solid rgba(131, 131, 131, 0.25);
+        position: relative;
+        @media #{$xs} {
+            padding: 40px 30px;
+        }
+        & > img {
+            @include transition(0s);
+            position: absolute;
+            @media #{$md} {
+                &.bottom-left {
+                    bottom: 15% !important;
+                    left: 5% !important;
+                }
+            }
+        }
+        & .section__title {
+            & p {
+                margin: 20px 0 0;
+            }
+        }
+    }
+    &__form {
+        max-width: 510px;
+        @include flexbox();
+        align-items: center;
+        justify-content: center;
+        margin: 35px auto 0;
+        @media #{$xs} {
+            flex-direction: column;
+            gap: 15px;
+        }
+        & [type=email] {
+            display: block;
+            flex-grow: 1;
+            border: none;
+            background: rgba(0, 0, 0, .05);
+            padding: 12px 25px;
+            border-radius: 50px;
+            font-size: 16px;
+            height: 47px;
+            &::placeholder {
+                font-size: 16px;
+            }
+            @media #{$xs} {
+                width: 100%;
+            }
+        }
+        & [type=submit] {
+            margin-left: 10px;
+            @media #{$xs} {
+                margin-left: 0;
+            }
+        }
+    }
+}

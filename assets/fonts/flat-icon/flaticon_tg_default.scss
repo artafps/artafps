@@ -1,0 +1,65 @@
+$flaticon_tg_default-font: "flaticon_tg_default";
+
+@font-face {
+    font-family: $flaticon_tg_default-font;
+    src: url("./flaticon_tg_default.ttf?e3deef4d25a8a816ffcc2046eac5a266") format("truetype"),
+url("./flaticon_tg_default.woff?e3deef4d25a8a816ffcc2046eac5a266") format("woff"),
+url("./flaticon_tg_default.woff2?e3deef4d25a8a816ffcc2046eac5a266") format("woff2"),
+url("./flaticon_tg_default.eot?e3deef4d25a8a816ffcc2046eac5a266#iefix") format("embedded-opentype"),
+url("./flaticon_tg_default.svg?e3deef4d25a8a816ffcc2046eac5a266#flaticon_tg_default") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_tg_default !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_tg_default-map: (
+    "menu": "\f101",
+    "menu-1": "\f102",
+    "dots-menu": "\f103",
+    "menu-2": "\f104",
+    "close": "\f105",
+    "close-1": "\f106",
+    "arrowhead-up": "\f107",
+    "arrow-up": "\f108",
+    "plus": "\f109",
+    "minus-sign": "\f10a",
+);
+
+.flaticon-menu:before {
+    content: map-get($flaticon_tg_default-map, "menu");
+}
+.flaticon-menu-1:before {
+    content: map-get($flaticon_tg_default-map, "menu-1");
+}
+.flaticon-dots-menu:before {
+    content: map-get($flaticon_tg_default-map, "dots-menu");
+}
+.flaticon-menu-2:before {
+    content: map-get($flaticon_tg_default-map, "menu-2");
+}
+.flaticon-close:before {
+    content: map-get($flaticon_tg_default-map, "close");
+}
+.flaticon-close-1:before {
+    content: map-get($flaticon_tg_default-map, "close-1");
+}
+.flaticon-arrowhead-up:before {
+    content: map-get($flaticon_tg_default-map, "arrowhead-up");
+}
+.flaticon-arrow-up:before {
+    content: map-get($flaticon_tg_default-map, "arrow-up");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon_tg_default-map, "plus");
+}
+.flaticon-minus-sign:before {
+    content: map-get($flaticon_tg_default-map, "minus-sign");
+}

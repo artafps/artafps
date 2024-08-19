@@ -1,0 +1,165 @@
+@use '../utils' as *;
+
+/*=============================
+    00. NFT Collection
+===============================*/
+.section-py-80 {
+    padding: 80px 0;
+    @media #{$lg} {
+        padding: 60px 0;
+    }
+}
+.collection {
+    &__item {
+        padding: 16px;
+        text-align: center;
+        @include border-radius(24px);
+        @include box-shadow(0 3px 8px -1px rgba(0, 0, 0, 0.08));
+        @media #{$md} {
+            margin: 0 0 30px;
+        }
+        &-thumb {
+            & img {
+                border-radius: 16px;
+            }
+        }
+        &-content {
+            margin: 16px 0 5px;
+            & .name {
+                font-size: 22px;
+                margin: 0 0 0;
+                @media #{$lg} {
+                    font-size: 20px;
+                }
+            }
+            & .author {
+                margin: 6px 0 0;
+                display: block;
+                font-size: 14px;
+                line-height: 1.7;
+                & a {
+                    color: inherit;
+                    &:hover {
+                        color: var(--tg-theme-secondary);
+                    }
+                }
+            }
+        }
+    }
+    &__items-list {
+        @media #{$md} {
+            justify-content: center;
+        }
+        &>* {
+            &:nth-child(odd) {
+                margin-top: 30px;
+                @media #{$md} {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    &__btn {
+        margin: 80px 0 0;
+        & .btn {
+            font-size: 18px;
+            padding: 20px 40px;
+            @media #{$xs} {
+                font-size: 16px;
+                padding: 18px 30px;
+            }
+        }
+        @media #{$md} {
+            margin: 40px 0 0;
+        }
+        @media #{$xs} {
+            margin: 20px 0 0;
+        }
+    }
+    &__three {
+        &-item {
+            text-align: center;
+        }
+        &-thumb {
+            & img {
+                @include border-radius(16px);
+            }
+        }
+        &-content {
+            padding: 24px;
+            @media #{$xs} {
+                padding: 24px 15px;
+            }
+            & .name {
+                font-size: 28px;
+                line-height: 1;
+                margin: 0 0 10px;
+                @media #{$xs} {
+                    font-size: 24px;
+                }
+            }
+            & .author {
+                display: block;
+                font-size: 16px;
+            }
+        }
+        &-wrapper {
+            position: relative;
+            & .tg-swiper-next,
+            & .tg-swiper-prev {
+                position: absolute;
+                left: 0;
+                top: 40%;
+                @include transform(translate(-50% , -50%));
+                width: 40px;
+                height: 40px;
+                @include flex-center();
+                @include box-shadow(0 3px 8px -1px rgba(0, 0, 0, 0.08));
+                @include border-radius(50%);
+                border: 1px solid rgba(131, 131, 131, 0.25);
+                color: var(--tg-body-color);
+                background-color: var(--tg-common-color-white);
+                font-size: 15px;
+                z-index: 2;
+                &.swiper-button-disabled {
+                    cursor: default;
+                    opacity: .4;
+                }
+                &:not(.swiper-button-disabled):hover {
+                    opacity: .8;
+                }
+                @media #{$xs} {
+                    left: 15px;
+                }
+            }
+            & .tg-swiper-next {
+                right: 0;
+                left: auto;
+                @include transform(translate(50%, -50%));
+                @media #{$xs} {
+                    right: 15px;
+                    left: auto;
+                }
+            }
+            & .tg-swiper-pagination {
+                @include flexbox();
+                justify-content: center;
+                gap: 10px;
+                margin: 30px 0 0;
+                @media #{$md} {
+                    margin: 20px 0 20px;
+                }
+            }
+            & .swiper-pagination-bullet {
+                width: 10px;
+                height: 10px;
+                background: var(--tg-heading-color);
+                opacity: .1;
+                &-active {
+                    opacity: 1;
+                    background: var(--tg-heading-color);
+                }
+            }
+        }
+    }
+}

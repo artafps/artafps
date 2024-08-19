@@ -1,0 +1,126 @@
+@use '../utils' as *;
+
+/*=============================
+    00. Fun Fact
+===============================*/
+.section-pt-60 {
+    padding-top: 60px;
+    @media #{$lg} {
+        padding-top: 40px;
+    }
+}
+.section-pb-30 {
+    padding-bottom: 30px;
+    @media #{$lg} {
+        padding-bottom: 20px;
+    }
+}
+.tg-text-gradient {
+    background-color: var(--tg-gradient-1);
+    background-image: linear-gradient(25deg, var(--tg-gradient-1), var(--tg-gradient-2));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fact {
+    &__items-wrap {
+        z-index: 1;
+        & .shape {
+            position: absolute;
+            @include transition(0s);
+            z-index: -1;
+            @media #{$xs} {
+                &:nth-child(1) {
+                    bottom: -13% !important;
+                    left: 10% !important;
+                }
+            }
+        }
+    }
+    &__item {
+        margin: 0 0 30px;
+        & .meta {
+            display: block;
+            font-size: 18px;
+            line-height: 1.7;
+            @media #{$lg} {
+                line-height: 1.5;
+                font-size: 16px;
+            }
+            @media #{$xs} {
+                font-size: 18px;
+            }
+        }
+    }
+    &__count {
+        font-size: 72px;
+        line-height: 1;
+        margin: 0 0 23px;
+        @media #{$lg} {
+            font-size: 56px;
+            margin: 0 0 20px;
+        }
+    }
+    &-style-two {
+        & .fact__items-wrap {
+            &>* {
+                & img {
+                    &:nth-child(2) {
+                        top: -12% !important;
+                    }
+                }
+            }
+        }
+        & .fact__item {
+            & > i {
+                font-size: 54px;
+            }
+        }
+        & .fact__count {
+            margin: 20px 0 23px;
+        }
+    }
+    &-style-three {
+        & .fact__item {
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                right: -15px;
+                transform: translateY(-50%);
+                width: 1px;
+                height: 100%;
+                background: #e5e5e5;
+            }
+        }
+        & .fact__items-wrap {
+            &> .row {
+                &>*:last-child {
+                    & .fact__item::after {
+                        display: none;
+                    }
+                }
+                &>*:nth-child(4n+2) {
+                    @media #{$sm} {
+                        & .fact__item::after {
+                            display: none;
+                        }
+                    }
+                }
+                &>*:nth-child(4n+3) {
+                    @media #{$md} {
+                        & .fact__item::after {
+                            display: none;
+                        }
+                    }
+                    @media #{$sm} {
+                        & .fact__item::after {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

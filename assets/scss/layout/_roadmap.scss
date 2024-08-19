@@ -1,0 +1,257 @@
+@use '../utils' as *;
+
+/*=============================
+    00. Road Map
+===============================*/
+.section-pb-60 {
+    padding-bottom: 60px;
+}
+.roadmap {
+    &__wrapper {
+        max-width: 368px;
+        margin: 0 auto;
+        position: relative;
+        & .tg-swiper-next,
+        & .tg-swiper-prev {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            @include transform(translate(-50% , -50%));
+            width: 40px;
+            height: 40px;
+            @include flex-center();
+            @include box-shadow(0 3px 8px -1px rgba(0, 0, 0, 0.08));
+            @include border-radius(50%);
+            border: 1px solid rgba(131, 131, 131, 0.25);
+            color: var(--tg-body-color);
+            font-size: 15px;
+            z-index: 2;
+            &.swiper-button-disabled {
+                cursor: default;
+                opacity: .4;
+            }
+            &:not(.swiper-button-disabled):hover {
+                opacity: .8;
+            }
+            @media #{$xs} {
+                left: 15px;
+            }
+        }
+        & .tg-swiper-next {
+            right: 0;
+            left: auto;
+            @include transform(translate(50%, -50%));
+            @media #{$xs} {
+                right: 15px;
+                left: auto;
+            }
+        }
+        & .tg-swiper-scrollbar {
+            position: relative;
+            height: 8px;
+            width: 32vh;
+            margin: 50px auto 0;
+            left: 0;
+            top: auto;
+            bottom: 0;
+            background-color: rgba(156, 156, 156, .15);
+            border-radius: 8px;
+            overflow: hidden;
+            & .swiper-pagination-progressbar-fill {
+                background-color: var(--tg-gradient-1);
+                background-image: linear-gradient(25deg, var(--tg-gradient-1), var(--tg-gradient-2));
+            }
+        }
+        &-two {
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 50%;
+                transform: translateX(50%);
+                width: 1px;
+                height: 100%;
+                background-color: #e5e5e5;
+                @media #{$md} {
+                    right: auto;
+                    left: 40px;
+                    transform: unset;
+                }
+                @media #{$xs} {
+                    display: none;
+                }
+            }
+            & .roadmap__card.style-two {
+                &:nth-child(even) {
+                    margin-left: auto;
+                    &::after {
+                        top: 50%;
+                        right: auto;
+                        left: 0;
+                        transform: translate(calc(-100% + -18px), -50%);
+                        @media #{$md} {
+                            transform: translate(calc(-100% + -27px), -50%);
+                        }
+                    }
+                }
+            }
+        }
+        &-three {
+            & > .row {
+                --bs-gutter-x: 48px;
+                @media #{$lg} {
+                    --bs-gutter-x: 30px;
+                }
+            }
+            & .roadmap__card.style-three {
+                margin-bottom: 48px;
+                @include box-shadow(none);
+                border: 1px solid rgba(131, 131, 131, 0.25);
+                @media #{$lg} {
+                    margin-bottom: 30px;
+                    padding: 25px;
+                }
+            }
+        }
+    }
+    &__active {
+        padding: 16px;
+        margin: -16px;
+        overflow: visible;
+    }
+    &__card {
+        position: relative;
+        @include border-radius(32px);
+        padding: 32px;
+        @include box-shadow(0 3px 8px -1px rgba(0, 0, 0, 0.08));
+        @media #{$xs} {
+            @include border-radius(20px);
+        }
+        & p {
+            font-size: 20px;
+            line-height: 1.45;
+            margin: 0 0;
+            @media #{$xs} {
+                font-size: 18px;
+                line-height: 1.5;
+            }
+        }
+        &.style-two {
+            max-width: 468px;
+            @media #{$lg} {
+                max-width: 435px;
+            }
+            @media #{$md} {
+                max-width: 490px;
+                margin: 0 0 40px auto;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+            @media #{$xs} {
+                margin: 0 auto 40px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+            &::after {
+                content: "";
+                width: 24px;
+                height: 24px;
+                border-radius: 100%;
+                border: 6px solid #fff;
+                background-color: var(--tg-gradient-1);
+                background-image: linear-gradient(25deg, var(--tg-gradient-1), var(--tg-gradient-2));
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translate(calc(100% + 18px), -50%);
+                z-index: 2;
+                box-shadow: 0 0 0 2px rgba(151, 151, 151, .2);
+                @media #{$md} {
+                    right: auto;
+                    left: 0;
+                    transform: translate(calc(-100% + -27px), -50%);
+                }
+                @media #{$xs} {
+                    display: none;
+                }
+            }
+        }
+    }
+    &__percent {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        @include flex-center();
+        flex-direction: column;
+        padding-top: 2px;
+        line-height: .9;
+        @include border-radius(50%);
+        @include transform(rotate(16deg));
+        background-color: var(--tg-gradient-1);
+        background-image: linear-gradient(25deg, var(--tg-gradient-1), var(--tg-gradient-2));
+        color: var(--tg-common-color-white);
+        font-weight: var(--tg-fw-bold);
+        margin: 16px;
+        & > span {
+            display: block;
+            font-size: 150%;
+        }
+    }
+    &__step {
+        margin: 0 0 22px;
+        line-height: 1.7;
+        @media #{$xs} {
+            margin: 0 0 18px;
+        }
+        & span {
+            text-transform: uppercase;
+            font-weight: var(--tg-fw-bold);
+            font-size: 16px;
+            line-height: 1;
+        }
+    }
+    &__heading {
+        font-size: 32px;
+        line-height: 1;
+        margin: 0 0 26px;
+        @media #{$xs} {
+            font-size: 28px;
+        }
+        @media #{$sm} {
+            font-size: 32px;
+        }
+    }
+    &__lists {
+        position: relative;
+        &::before {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 1px;
+            background: rgba(131, 131, 131, 0.25);
+            margin: 35px 0;
+        }
+        & li {
+            @include flexbox();
+            align-items: center;
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: var(--tg-heading-color);
+            line-height: 1.4;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            & i {
+                display: block;
+                line-height: 1;
+                font-size: 24px;
+                margin-right: 8px;
+            }
+        }
+    }
+}

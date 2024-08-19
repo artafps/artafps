@@ -1,0 +1,47 @@
+// Font Family
+$theme-fonts: (
+    body: (
+        font-family: "'Mabry Pro'",
+    ),
+    heading: (
+        font-family: "'Power Grotesk'",
+    ),
+    fa-icon: (
+        font-family: '"Font Awesome 5 Free"',
+    ),
+    ui-icon: (
+        font-family: '"Unicons"',
+    ),
+);
+
+
+// Font Size
+$font-size: (
+    body: (
+        font-size: 18px,
+    ),
+);
+
+
+// Line Height
+$theme-lh: (
+    body: (
+        line-height: 1.5,
+    ),
+    heading: (
+        line-height: 1.2,
+    ),
+);
+
+
+// Font Weight
+$font-weight: (
+    fw: (
+        extra-bold: 800,
+        bold: 700,
+        semi-bold: 600,
+        medium: 500,
+        regular: 400,
+        light: 300,
+    ),
+);

@@ -1,0 +1,40 @@
+$colors: (
+    common: (
+        color-blue: #0d6efd,
+        color-indigo: #6610f2,
+        color-purple: #741ff5,
+        color-pink: #d63384,
+        color-red: #dc3545,
+        color-orange: #fd7e14,
+        color-yellow: #ffc107,
+        color-green: #198754,
+        color-teal: #20c997,
+        color-cyan: #0dcaf0,
+        color-white: #fff,
+        color-gray: #6c757d,
+        color-black: #0F051D,
+    ),
+    body: (
+        color: #7B7583,
+    ),
+    heading: (
+        color: #0f051d,
+    ),
+    theme: (
+        primary: #741ff5,
+        secondary: #e348ff,
+    ),
+    gradient: (
+        1: #2600fc,
+        2: #ff00ea,
+    ),
+    border: (
+        1: #e5e5e5,
+        2: rgba(131, 131, 131, 0.25),
+    ),
+    rgba: (
+        1: rgba(255, 255, 255, .05),
+        2: rgba(255, 255, 255, .02),
+        3: rgba(255, 255, 255, 0.15),
+    )
+);

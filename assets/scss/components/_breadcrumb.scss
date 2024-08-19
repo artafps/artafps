@@ -1,0 +1,39 @@
+@use '../utils' as *;
+
+/*=============================
+    00. Breadcrumb
+===============================*/
+.z-index-minus {
+    z-index: -1 !important;
+}
+.breadcrumb {
+    &-area {
+        padding: 180px 0 120px;
+        @media #{$xl} {
+            padding: 170px 0 120px;
+        }
+        @media #{$lg} {
+            padding: 150px 0 100px;
+        }
+        @media #{$xs} {
+            padding: 135px 0 85px;
+        }
+    }
+    &__content {
+        text-align: center;
+        & .title {
+            font-size: 60px;
+            line-height: 1.1;
+            margin: 0 0;
+            @media #{$lg} {
+                font-size: 50px;
+            }
+            @media #{$xs} {
+                font-size: 40px;
+            }
+            @media #{$sm} {
+                font-size: 44px;
+            }
+        }
+    }
+}

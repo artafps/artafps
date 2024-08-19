@@ -1,0 +1,242 @@
+@use '../utils' as *;
+/*-------------------------------------------
+
+   Theme Name: Nerko - NFT Portfolio Onepage Template
+   Author : ThemeGenix
+   Support: themegenix@gmail.com
+   Description: Nerko - NFT Portfolio Onepage Template
+   Version: 1.0
+
+----------------------------------------------
+
+/************ TABLE OF CONTENTS ***************
+
+    01. THEME DEFAULT CSS
+    02. HEADER CSS
+    03. MEAN MENU CSS
+
+**********************************************/
+
+
+
+/*=============================
+	Typography css start
+===============================*/
+body {
+	font-family: var(--tg-body-font-family);
+	font-size: var(--tg-body-font-size);
+	font-weight: var(--tg-fw-regular);
+	color: var(--tg-body-color);
+	line-height: var(--tg-body-line-height);
+}
+img,
+.img {
+	max-width: 100%;
+	@include transition(.3s);
+}
+a,
+button {
+	color: var(--tg-theme-primary);
+	outline: none;
+	text-decoration: none;
+	@include transition(.3s);
+}
+a:focus,
+.btn:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+	@include box-shadow(none);
+}
+a:hover,
+button:hover {
+	color: var(--tg-theme-secondary);
+	text-decoration: none;
+}
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+	outline: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--tg-heading-font-family);
+	color: var(--tg-heading-color);
+	margin-top: 0px;
+	font-weight: var(--tg-fw-bold);
+	line-height: 1.2;
+	text-transform: unset;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.75rem;
+}
+h4 {
+	font-size: 1.5rem;
+}
+h5 {
+	font-size: 1.25rem;
+}
+h6 {
+	font-size: 1rem;
+}
+.list-wrap {
+	margin: 0px;
+	padding: 0px;
+	& li {
+		list-style: none;
+	}
+}
+p {
+	font-family: var(--tg-body-font-family);
+	font-size: var(--tg-body-font-size);
+	line-height: var(--tg-body-line-height);
+	font-weight: var(--tg-fw-regular);
+	color: var(--tg-body-color);
+	margin-bottom: 15px;
+}
+hr {
+	border-bottom: 1px solid var(--tg-common-color-gray);
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+label {
+	color: var(--tg-heading-color);
+	cursor: pointer;
+	font-size: var(--tg-body-font-size);
+	font-weight: var(--tg-fw-regular);
+}
+input[type="color"] {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background: none;
+	border: 0;
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	border-radius: 50%;
+}
+*::-moz-selection {
+	background: var(--tg-theme-primary);
+	color: var(--tg-common-color-white);
+	text-shadow: none;
+}
+::-moz-selection {
+	background: var(--tg-theme-primary);
+	color: var(--tg-common-color-white);
+	text-shadow: none;
+}
+::selection {
+	background: var(--tg-theme-primary);
+	color: var(--tg-common-color-white);
+	text-shadow: none;
+}
+
+/*=============================
+    - Input Placeholder
+===============================*/
+*::-moz-placeholder {
+	color: var(--tg-body-color);
+	font-size: var(--tg-body-font-size);
+	opacity: 1;
+}
+*::placeholder {
+	color: var(--tg-body-color);
+	font-size: var(--tg-body-font-size);
+	opacity: 1;
+}
+
+/*=============================
+    - Common Classes
+===============================*/
+.fix {
+    overflow:hidden
+}
+.clear{
+    clear: both;
+}
+
+/*=============================
+    - Bootstrap Custom
+=============================*/
+:root {
+    scroll-behavior: auto;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row {
+    --bs-gutter-x: 30px;
+}
+.gutter-y-30 {
+  	--bs-gutter-y: 30px;
+}
+.gx-0 {
+	--bs-gutter-x: 0;
+}
+.container {
+    max-width: 1230px;
+	@media #{$xl} {
+        max-width: 1230px;
+    }
+	@media #{$lg} {
+        max-width: 960px;
+    }
+	@media #{$md} {
+        max-width: 720px;
+    }
+	@media #{$xs} {
+        max-width: 100%;
+    }
+	@media #{$sm} {
+        max-width: 540px;
+    }
+}
+.custom-container {
+    max-width: 1330px;
+	@media #{$xxl} {
+        max-width: 1530px;
+    }
+	@media #{$xl} {
+        max-width: 1320px;
+    }
+	@media #{$lg} {
+        max-width: 960px;
+    }
+	@media #{$md} {
+        max-width: 720px;
+    }
+	@media #{$xs} {
+        max-width: 100%;
+    }
+	@media #{$sm} {
+        max-width: 540px;
+    }
+}
+
+.include-bg{
+	@include background();
+}

@@ -1,0 +1,42 @@
+@use '../utils' as *;
+
+/*=============================
+    00. Brand
+===============================*/
+.section-pb-65 {
+    padding-bottom: 65px;
+}
+.section-pt-30 {
+    padding-top: 30px;
+}
+.brand {
+    &__title {
+        text-align: center;
+        font-family: var(--tg-body-font-family);
+        font-weight: var(--tg-fw-bold);
+        font-size: 14px;
+        color: #7B7583;
+        letter-spacing: 1px;
+        margin: 0 0 35px;
+    }
+    &__list {
+        @include flexbox();
+        align-items: center;
+        justify-content: center;
+        gap: 15px 64px;
+        @media #{$md} {
+            gap: 15px 35px;
+        }
+        @media #{$xs} {
+            gap: 25px 30px;
+            flex-wrap: wrap;
+        }
+    }
+    &__item {
+        & img {
+            @media #{$xs} {
+                max-width: 132px;
+            }
+        }
+    }
+}
