@@ -1,1 +1,146 @@
-{"Header":{"Status":"true","Logo":{"Title":"","Text":"","ImageURI":"https://raw.githubusercontent.com/artafps/artafps/main/logo/logoHEADER-f-ARTA FPS1.png"},"Social":[]},"Slider":{"Status":"","H1Text":"","Description":"","BtnText":"","LinkBtn":"","ImageURI1":"","ImageURI2":"","TextCircle":"","LinkCircle":""},"Skils":{"Status":"","Arr":[]},"News":{"Status":"","Title":"arta2","Arr":[]},"Blog":{"Status":"","Title":"","Arr":[]},"Project":{"Status":"","Title":"","Arr":[]},"Plan":{"Status":"","Title":"","Arr":[]},"Footer":{"Status":"","Logo":{"Title":"","Text":"","ImageURI":""},"Social":[],"PowerBy":{"Status":"","Text":"","Link":""}},"Community":{"Status":"","Text":"","BtnText":"","LinkBtn":""},"Team":{"Status":"","Title":"","Arr":[]},"Donate":{"Status":"","Title":"","SubTitle":"","Items":[]},"Lable":[],"Category":[]}
+{
+  "Header": {
+    "Status": "true",
+    "Logo": {
+      "Title": "ARTAfps (ARTA Fallahpoor) | ارتا فلاح پور ",
+      "Text": "",
+      "ImageURI": "https://raw.githubusercontent.com/artafps/artafps/main/logo/logoHEADER-f-ARTA FPS.png"
+    },
+    "Social": [
+      {
+        "Id": "e8jucR4AsAJdqg5d9bAkmcnPvua81HS3EdBv",
+        "Dark": false,
+        "Icone": "",
+        "Link": "https://github.com/artafps"
+      }
+    ]
+  },
+  "Slider": {
+    "Status": "true",
+    "H1Text": "سلام دنیا، من آرتا اف‌پی‌اس هستم 🛠️🚀\n",
+    "Description": "\n\nمن یک توسعه‌دهنده فول‌استک و مهندس نرم‌افزار هستم که در لاهیجان، ایران ساکن هستم. برنامه‌های با کیفیت بالا و ربات‌های پیشرفته تلگرام می‌سازم. در حال حاضر در حال تحصیل در رشته علوم کامپیوتر در دانشگاه گیلان و هم‌بنیان‌گذار مرکز اقتصادی بشکوچ، اردپنل و برکه هستم. مشتاق استفاده از فناوری برای کارهای خوب هستم. 🚀✨",
+    "BtnText": "",
+    "LinkBtn": "",
+    "ImageURI1": "https://raw.githubusercontent.com/artafps/artafps/main/image/IMAGE1-f-102357381.jpg",
+    "ImageURI2": "https://raw.githubusercontent.com/artafps/artafps/main/image/IMAGE1-f-123.jpg",
+    "TextCircle": "بلاگ‌های من را بخوانید تا با پروژه‌هایم آشنا شوید",
+    "LinkCircle": "https://artafps.ir/blogs/"
+  },
+  "News": {
+    "Status": "false",
+    "Title": "اخبار",
+    "Arr": [
+      {
+        "ImageURI": "https://raw.githubusercontent.com/artafps/artafps/main/news/jpg/NEWS-f-R2.png",
+        "TopTitle": "ataarwa",
+        "SubTitle": "awdawdawd",
+        "Direction": "awdawd",
+        "BtnText": "awdwad",
+        "LinkBtn": "wadawd"
+      }
+    ]
+  },
+  "Blog": {
+    "Status": "false",
+    "Title": "بلاگ‌ها",
+    "Arr": []
+  },
+  "Project": {
+    "Status": "false",
+    "Title": "پروژه‌های من",
+    "Arr": [
+      {
+        "ImageURI": "https://raw.githubusercontent.com/artafps/artafps/main/project/jpg/PROJECT-f-images (1).png",
+        "Title": "اپ بلاگ cvCard",
+        "Description": "سلام دوستان، این پروژه برای مدیریت یک سایت بلاگ ایجاد شده است. شما یک مخزن به سیستم معرفی می‌کنید و این سیستم یک فایل json ایجاد می‌کند، و می‌توانید محتوای آن را خوانده و با کلیک روی آن در سایت خود نمایش دهید.",
+        "Percent": "89",
+        "Link": "https://github.com/artafps/app-blog-cvCard"
+      }
+    ]
+  },
+  "Plan": {
+    "Status": "false",
+    "Title": "کارهای انجام شده من",
+    "Arr": [
+      {
+        "TopTitle": "rgefweaf",
+        "Title": "awfawfawf",
+        "Description": "awfawfaw",
+        "Percent": "10",
+        "Cheked": "arta , test , hello my frinde "
+      },
+      {
+        "TopTitle": "arta",
+        "Title": " aera",
+        "Description": "awdawd",
+        "Percent": "20",
+        "Cheked": "awdawd , awdawd , awdawd,  wdawd , یشصیشصیشصی"
+      }
+    ]
+  },
+  "Footer": {
+    "Status": "true",
+    "Logo": {
+      "Title": "awdawd",
+      "Text": "من یک مهندس نرم‌افزار و توسعه‌دهنده فول‌استک هستم که به ساخت برنامه‌های تاثیرگذار و ابزارهای اتوماسیون علاقه‌مندم. در کنار تحصیلاتم در رشته علوم کامپیوتر در دانشگاه گیلان، مرکز اقتصادی بشکوچ را با هدف ایجاد فرصت‌های رشد جمعی هم‌بنیان‌گذاری کرده‌ام. اگر دانشجو، توسعه‌دهنده جوان یا فردی هستید که رویای ایجاد تغییر را در سر دارد — به ما بپیوندید. در بشکوچ باور داریم با همکاری می‌توانیم کشورمان را شکوفا کرده و آینده‌ای بهتر از طریق نوآوری و فناوری بسازیم. بیایید با هم رشد کنیم، یاد بگیریم و بسازیم — به عنوان یک تیم. 🚀✨",
+      "ImageURI": "https://raw.githubusercontent.com/artafps/artafps/main/logo/logoFooter-f-ARTA FPS.png"
+    },
+    "Social": [
+      {
+        "Id": "e8jucR4AsAJdqg5d9bAkmcnPvua81HS3EdBv",
+        "Dark": false,
+        "Icone": "",
+        "Link": "https://github.com/artafps"
+      },
+      {
+        "Id": "PgRZtajqTOYkdsSRzTDxeW7v5Nkcei5J1GGI",
+        "Dark": true,
+        "Icone": "",
+        "Link": "https://github.com/artafps"
+      }
+    ],
+    "PowerBy": {
+      "Status": "false",
+      "Text": "awdawdaw",
+      "Link": "awdadawd"
+    }
+  },
+  "Community": {
+    "Status": "false",
+    "Text": "من یک مهندس نرم‌افزار و توسعه‌دهنده فول‌استک هستم که به ساخت برنامه‌های تاثیرگذار و ابزارهای اتوماسیون علاقه‌مندم. در کنار تحصیلاتم در رشته علوم کامپیوتر در دانشگاه گیلان، مرکز اقتصادی بشکوچ را با هدف ایجاد فرصت‌های رشد جمعی هم‌بنیان‌گذاری کرده‌ام. اگر دانشجو، توسعه‌دهنده جوان یا فردی هستید که رویای ایجاد تغییر را در سر دارد — به ما بپیوندید. در بشکوچ باور داریم با همکاری می‌توانیم کشورمان را شکوفا کرده و آینده‌ای بهتر از طریق نوآوری و فناوری بسازیم. بیایید با هم رشد کنیم، یاد بگیریم و بسازیم — به عنوان یک تیم. 🚀✨",
+    "BtnText": "awdwad",
+    "LinkBtn": "wadadawd"
+  },
+  "Team": {
+    "Status": "false",
+    "Title": "تیم بشکوچ",
+    "Arr": [
+      {
+        "ImageURI": "https://raw.githubusercontent.com/artafps/artafps/main/Team/jpg/Team-f-photo_2024-08-08_12-27-28.jpg",
+        "Name": "آرتا فلاح پور",
+        "Gitlab": "",
+        "Github": "https://github.com/artafps",
+        "Tel": "",
+        "Ins": "",
+        "Twit": "",
+        "Lid": "",
+        "Drib": "",
+        "Disc": ""
+      }
+    ]
+  },
+  "Donate": {
+    "Status": "true",
+    "Title": "برایم یک قهوه بخر :)",
+    "SubTitle": "حمایت شما به من انرژی بیشتری برای کار می‌دهد\n",
+    "Items": [
+      {
+        "Text": "زرین‌پال",
+        "Icone": "https://raw.githubusercontent.com/artafps/artafps/main/donate/jpg/Dicone-f-download.jpg",
+        "Link": "zarinp.al/artafallahpoor"
+      }
+    ]
+  },
+  "Lable": [],
+  "Category": []
+}
